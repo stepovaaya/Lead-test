@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lead</title>
+    <link rel="icon" href="img/logo.svg">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+  
+        <div class="header__container">
+            <a href="index.html" class="header__logo">
+                <img src="img/logo.svg" alt="logotype">
+            </a>    
+        </div>
+    </header>
+    <main>
+        <section class="main">
+          <div class="container">
+            <div class="text__content">
+                <h1 class="text__title">Under Construction</h1>
+                <p class="text__descr">We're making lots of improvements and will be back soon</p>
+                </div>    
+            <div class="time__content flex">
+                <div class="time__items time__days">
+                    <div class="time__val">00</div>
+                    <span class="time__text">Days</span>
+                    <span class="time__text-large">DD</span>
+                </div>
+                <div class="time__separator">:</div>
+                <div class="time__items time__hours">
+                    <div class="time__val">00</div>
+                    <span class="time__text">Hours</span>
+                    <span class="time__text-large">HH</span>
+                </div>
+                <div class="time__separator">:</div>
+                <div class="time__items time__minutes">
+                    <div class="time__val">00</div>
+                    <span class="time__text">Minutes</span>
+                    <span class="time__text-large">MM</span>
+                </div>
+                <div class="time__separator">:</div>
+                <div class="time__items time__seconds">
+                    <div class="time__val">00</div>
+                    <span class="time__text">Seconds</span>
+                    <span class="time__text-large">SS</span>
+                </div>
+            </div>  
+            <div class="button">
+                <span class="button__descr">Check our event page when you wait:</span>
+                <a href="https://www.google.com/webhp?hl=ru&sa=X&ved=0ahUKEwiz_dXd6aT2AhVcCRAIHWCFB0UQPAgI" class="button__btn">Go to the event</a>
+            </div>  
+        </div>  
+        </section>
+            
+    </main>
+    <footer class="footer">
+        <div class="form__container flex">
+          <form action="#" class="footer__form">
+            <input class="footer__input" type="email" name="email" placeholder="Enter your Email and get notified" required>
+           <a id="open-pop-up" class="open-pop-up">
+            <svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="16.5" cy="16.5" r="16.5" fill="#DF2224"/>
+                <path d="M12.4071 16.1163H21.3606" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M16.8839 11.6395L21.3607 16.1163L16.8839 20.593" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </a>   
+        </form>
+        
+        </div>
+        
+        <div class="pop-up" id="pop-up">
+            <div class="pop-up__container">
+                <div class="pop-up__body" id="pop-up__body">
+                    <div class="pop-up__content">
+                     <h3 class="pop-up__title">SUCCESS!</h3>
+                    <p class="pop-up__text">You have successfully subscribed to the email newsletter</p>
+                    <div id="close">
+                        <button class="btn-reset pop-up__button" id="pop-ip__close-btn">Close</button>
+                        <div class="pop-up__close" id="pop-up__close">&#10006 </div>   
+                    </div>
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/time-count.js"></script>
+    <script src="js/pop-up.js"></script>
+</body>
+</html>
